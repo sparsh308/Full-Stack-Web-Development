@@ -4,6 +4,7 @@
 <html>
 <head>
 <title>Welcome to insert details</title>
+<link rel="stylesheet" href="st.css">
 </head>
 
 <body>
@@ -47,7 +48,7 @@ include 'config.php';
      <label for="uemail"><b>Email</b></label>
     <input type="email" value="<?php echo $row['email']; ?>" name="uemail" required id="idemail"><br>
 
-    <button type="submit"  id="btn">Submit</button>
+    <center><button type="submit"  id="btn">Submit</button></center>
     
 </form>
 </body>
